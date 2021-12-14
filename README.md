@@ -22,7 +22,7 @@ In this practice let's build a **Cryptocurrency Tracker** by applying the concep
 
 ### Project Completion Instructions
 
-#### Add Functionality
+#### Functionality
 
 The app must have the following functionalities
 
@@ -75,21 +75,7 @@ The app must have the following functionalities
   <Loader type="Rings" color="#ffffff" height={80} width={80} />
   ```
 
-> #### Important Note
->
-> **The following HTML attributes are required for the HTML for the tests to pass**
->
-> - The API response received from the given apiUrl should be converted to camel case
-> - The value of the key `currencyName` from the converted API response should be used as `alt` attribute value to each crypto currency icon.<br/>
->   ```
->   <img ... alt={currencyName}/>
->   ```
-> - Wrap the Loader component with an HTML container element and add the `testid` attribute value as `loader` to it as shown below
->   ```
->   <div testid="loader">
->       <Loader type="Rings" color="#ffffff" height={80} width={80} />
->   </div>
->   ```
+   ```
 
 ### Resources
 
@@ -112,9 +98,3 @@ The app must have the following functionalities
 
 - Roboto
 
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
